@@ -589,7 +589,7 @@ display: inline;
    .searchbar button{
       display: none;
    }
-   .footer1-top2,.footer1-top3,.footer1-bottom4{
+   .footer1-top2,.footer1-top3,.footer1-bottom4,.section-8{
       display: none;
    }
    i{
@@ -597,6 +597,9 @@ display: inline;
    }
 }
 @media screen and (max-width:600px) {
+   body{
+      width: 100vh;
+   }
    .section2-god,.section-2 img{
       width: 300px;
       display: none;
